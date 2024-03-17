@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  /* # Colors */
+
+  /* ## Primary */
+
+  --Green: hsl(75, 94%, 57%);
+
+  /* ## Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark_Grey: hsl(0, 0%, 12%);
+  --Off_Black: hsl(0, 0%, 8%);
+
+  /* # Typography */
+
+  --main_font : "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--Off_Black);
+}
+
+.main {
+  height: 100%;
+  justify-content: center;
+}
+
+.body,
+.main,
+.container,
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  font-family: var(--main_font);
+  background-color: var(--Dark_Grey);
+  gap: 1rem;
+  padding: 2rem .75rem;
+  font-size: .875rem;
+  border-radius: .75rem;
+  width: 300px;
+}
+
+.avatar {
+  width: 75px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.full_name {
+  color: var(--White);
+  font-size: 1.6rem;
+}
+
+.adress {
+  color: var(--Green);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.description {
+  color: var(--White);
+  margin-bottom: .75rem;
+}
+
+.links {
+  gap: 1rem;
+}
+
+.btn {
+  padding: .5rem 1.5rem;
+  background-color: var(--Grey);
+  width: 250px;
+  height: 2rem;
+  outline: none;
+  border-radius: .5rem;
+  border: none;
+  color: var(--White);
+  font-weight: 600;
+  
+}
+
+.btn:hover{
+  background-color: var(--Green);
+  color: black;
+  cursor: url(./images/pointer.png), auto;
+}
+
+/* attribution styling */
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  color: var(--White);
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
