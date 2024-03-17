@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Social-links-profile)
-- Live Site URL: [live site]()
+- Live Site URL: [live site](https://medido1.github.io/Frontend-Mentor-Social-links-profile/)
 
 ## My process
 
